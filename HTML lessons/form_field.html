@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fields</title>
+</head>
+<body>
+    <form action="div.html" method="get">
+
+        <div>
+            <label for="textfield">Textfield</label>
+            <input required="required" type="text" name="textfield" id="textfield">
+        </div>
+        <div>
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" name="checkbox" value="1">
+        </div>
+        <div>
+            <label for="radio">Radio buttons</label>
+            <input type="radio" name="radio" value="1"> 1
+            <input type="radio" name="radio" value="2"> 2
+            <input type="radio" name="radio" value="3"> 3
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="name@email.com">
+        </div>
+        <div>
+            <label for="hidden">Hidden</label>
+            <input type="hidden" name="hidden">
+        </div>
+        <div>
+            <label for="number">Number</label>
+            <input type="number" name="number" step="0.5" max="100" min="0">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input required="required" type="password" name="password">
+        </div>
+        <div>
+            <label for="file_upload">File Upload</label>
+            <input type="file" name="file_upload">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
