@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-image: url("bgwp.jpg");
+}
+
+nav {
+  border-bottom-width: 2px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+label, input, textarea, button {
+  display: block;
+  margin: 10px 30px;
+  
+}
+
+button{
+  cursor: pointer;
+  width: 50%;
+  height: 50px;
+  margin: 20px 30%;
+  background-color: #7c7575;
+  color: #fff
+}
+
+label{
+  color: rgb(255, 255, 255);
+  background-color: rgba(7, 7, 7, 0.4);
+  padding: 10px;
+  border: 2px solid #3071ff;
+}
+
+input{
+  padding: 5px;
+  margin-right: 20px;
+  width: 91.7%;
+  border: 2px solid #3071ff;
+}
+
+textarea{
+  width: 91.7%;
+  height: 200px;
+  border: 2px solid #3071ff;
+}
