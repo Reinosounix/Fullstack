@@ -1,0 +1,19 @@
+body > span{
+    display: block;
+}
+
+body > p{
+    display: inline;
+}
+
+body > div > .inline{
+    display: inline-block;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    text-align: center;    
+}
+
+body > div > div.hidden{
+    display:none;
+}

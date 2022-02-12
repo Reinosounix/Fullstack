@@ -1,0 +1,11 @@
+ol{
+   list-style-type: none;
+   padding: 0px; 
+}
+
+li{
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    text-align: center;
+}

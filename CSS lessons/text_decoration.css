@@ -1,0 +1,6 @@
+.txt-deco{
+    text-decoration:line-through;
+    text-decoration-style:wavy;
+    text-decoration-color: brown;
+    /* color: blueviolet; */
+}

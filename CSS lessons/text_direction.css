@@ -1,0 +1,8 @@
+.direction{
+    direction: rtl;
+}
+
+input{
+    direction: rtl;
+    width: 100%;
+}
