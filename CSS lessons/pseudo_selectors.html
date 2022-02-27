@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <link rel="stylesheet" href="pseudo_selectors.css">
+</head>
+
+<body>
+    <h2>Hover selector</h2>
+    <div class="hover"></div>
+    <h2>Child Selector</h2>
+    <h3>First child</h3>
+    <div id="parent">
+        <p class="child">paragraph 1</p>
+        <p class="child">paragraph 2</p>
+        <p class="child">paragraph 3</p>
+    </div>
+    <h3>Last child</h3>
+    <h2>Focus Selector</h2>
+    <div>
+        <input type="text" class="input-txt" />
+    </div>
+    <h2>Checked Selector</h2>
+    <div>
+        <input type="checkbox" class="checkbx">
+        <div class="checked">A test text</div>
+    </div>
+    <h2>Disabled Selector</h2>
+    <div>
+        <input type="text" class="disabled-txt" disabled>
+    </div>
+    <h2>Enabled Selector</h2>
+    <div>
+        <input type="text" class="enabled-txt">
+    </div>
+    <h2>Not Selector</h2>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="color"> Nostrum ex doloribus</span> consequuntur illo blanditiis, quaerat corporis odio dicta <span class="color red"> atque rem obcaecati autem accusamus eius sit dolorum </span>adipisci itaque non enim iure reiciendis eum quasi quae nemo! <span class="color green"> Voluptas quam magni ducimus odit facilis quas quis. </span>Doloremque quia vitae magnam quod consequuntur.
+        </p>
+    </div>
+    <h2>::Before Selector & ::After Selector</h2>
+    <div class="bx-bf"></div>
+</body>
+
+</html>

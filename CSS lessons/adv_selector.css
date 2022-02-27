@@ -1,0 +1,47 @@
+form{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+label, button{
+    display: block;
+}
+
+label, input, button{
+    padding: 5px;
+}
+
+button{
+    width: 180px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+[type]{
+    border: 1px solid #ccc;
+}
+
+[type="submit"]{
+    border: 1px solid #54ddff;
+    background-color: #1696ff;
+    color: #fff;
+}
+
+.fa-circle-question[title~="test"]{
+    color:#1696ff;
+}
+
+[href^="/reg"]{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px 10px 10px 0px;
+    color: #1696ff;
+    font-weight: bold;
+}
+
+[href$=".pdf"]{
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+    color: #1696ff;
+}

@@ -1,0 +1,7 @@
+.txt-area{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 200px;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
