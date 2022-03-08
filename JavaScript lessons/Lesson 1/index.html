@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="/Lesson 1/test.js"></script> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">This is a title</h1>
+    <p id="text">This is a paragraph</p>
+
+    <script>
+        var sentence = document.getElementById("title");
+        sentence.innerHTML = "This is another title";
+        var sentence2 = document.getElementById("text");
+        var para = sentence2.innerText;
+        var text = "This is a concat text";
+        sentence2.innerHTML = para +" "+ text;
+    </script>
+</body>
+
+</html>

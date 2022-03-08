@@ -1,0 +1,60 @@
+/* .body{
+    display: inline-block;
+} */
+.tran-bx{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transition: 250ms all linear;
+}
+
+.tran-bx:hover{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.link-bx{
+    margin: 10px 0px;
+}
+.link-tran{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+
+.link-tran:hover{
+    color: #a2a2a2;
+}
+
+.tran-bx-parent{
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+}
+
+.tran-bx-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transition-duration: 2s;
+    transition-property: left;
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-delay: 250ms;
+}
+
+.tran-bx-parent:hover .tran-bx-child{
+    left: calc(100% - 50px);
+    transition-delay: 0ms;
+}

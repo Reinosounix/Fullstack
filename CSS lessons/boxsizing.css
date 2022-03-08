@@ -1,0 +1,21 @@
+.content-bx, .border-bx{
+    padding: 15px;
+    outline: 1px solid red;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    resize: none;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+}
+
+.content-bx{
+    box-sizing: content-box;
+}
+
+.border-bx{
+    box-sizing: border-box;
+}

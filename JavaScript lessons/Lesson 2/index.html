@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="link">This is a link: </h1>
+
+    <script>
+        var text = document.getElementById("link")
+        var link = prompt("Write a link", "http://");
+
+        if (link.toLowerCase().substring(0, 7) != "http://") {
+            var f_link = "http://" + link;
+            text.innerHTML = text.innerText + " " + "<a href='"+ f_link +"'>" + f_link + "</a>";
+        }
+        else {
+            text.innerHTML = text.innerText + " " + "<a href='" + link + "'>" + link + "</a>";
+        }
+    </script>
+</body>
+
+</html>

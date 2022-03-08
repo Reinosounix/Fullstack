@@ -1,0 +1,90 @@
+.bx-1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    left: 25%;
+}
+
+.bx-1::before{
+    position: absolute;
+    content: ' ';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    transform: translate(20px, 20px);
+    z-index: -1;    
+}
+
+.bx-2{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 50px auto;
+    transition: 250ms all linear;
+}
+
+.bx-2:hover{
+    transform: rotateX(80deg);
+}
+.bx-3{    
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    transition: 250ms all ease-out;
+}
+
+.bx-3:hover{
+    transform: scale(1.2);
+    background-color: darkturquoise;
+}
+
+.para-1{
+    display: block;
+    border: 1px solid #000;
+    transform: skewX(-20deg);
+}
+
+.bx-4{
+    /* position: relative; */
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+
+    transition: 250ms all ease-out;
+}
+
+.bx-4:hover{
+    transform:  scale(1.2) 
+                translate(20px, 20px)
+                skew(15deg)
+                rotate(10deg);   
+    background-color: darkturquoise;
+}
+
+.bx-5{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 50px auto;
+    transition: 250ms all linear;
+}
+
+.bx-5:hover{
+    transform:  rotateX(90deg)
+                rotateY(90deg)
+                rotateZ(90deg);    
+    /* transform:  scaleX(1.3)
+                scaleY(1.4)
+                scaleZ(1.7); */
+    background-color: darkturquoise;
+}
+

@@ -1,0 +1,142 @@
+.flex-parent{    
+    display: flex;
+    flex-wrap: wrap;
+}
+.bx1, .bx2, .bx3, .bx4, .bx5, .bx6{
+    flex: 1 1 33%;
+    outline: 1px solid green;
+    margin-bottom: 10px;
+}
+.bx4{
+    order: 3;
+}
+.bx5{
+    order: 1;
+}
+.bx6{
+    order: 2;
+}
+.flex-parent-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bx7{
+    outline: 1px solid green;
+    flex-basis: 85%;
+    flex-grow: 0;
+}
+
+.bx8, .bx9, .bx10{
+    outline: 1px solid green;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-bottom: 10px;
+}
+
+.bx8, .bx10{
+    flex-basis: 75%;
+}
+
+.bx9{
+    flex-basis: 24%;
+}
+
+.center-bx{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-parent-3{
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    align-items: stretch;
+}
+.flex-parent-3 > .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 20%;
+    background-color: aquamarine;
+}
+
+.flex-parent-4{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    background-color: blueviolet;
+    height: 300px;
+}
+.flex-parent-4 > .col{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: aquamarine;
+    height: 150px;
+}
+
+
+.flex-parent-5{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.flex-parent-5 > .col{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: aquamarine;
+}
+.flex-parent-5 > .col1{
+    height: 30%;
+    align-self: center;    
+}
+.flex-parent-5 > .col2{
+    height: 40%;
+    align-self: flex-end;
+}
+.flex-parent-5 > .col3{
+    align-self: flex-start;
+    height: 50%;
+}
+.flex-parent-5 > .col4{
+    align-self: stretch;
+}
+
+.flex-parent-6{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+    background-color: blueviolet;
+    height: 300px;
+}
+.flex-parent-6 > .col{
+    flex-basis: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    height: 50px;
+    outline: 1px solid black;
+    background-color: aquamarine;
+}
