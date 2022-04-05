@@ -23,6 +23,7 @@ function App() {
     <div className='App'>
       <Img
         className='freecodecamp-logo'
+        src= 'freecodecamp-logo'
         alt='freecodecamp logo'
       />
       <div className='container'>

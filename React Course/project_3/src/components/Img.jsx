@@ -13,4 +13,4 @@ function Img({ className, src, alt }) {
   );
 }
 
-export default Img
+export default Img;
