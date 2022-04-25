@@ -4,7 +4,6 @@ import Task from './Task'
 
 import '../styles/taskList.css'
 
-
 export default function TaskList() {
 
   const [tasks, setTasks] = useState([]);

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <style>
+    .connected{
+      min-height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>List 1</h1>
+  <ul id="list_1" class="connected">
+    <li class="ui-state-default">Thing #1</li>
+    <li class="ui-state-default">Thing #2</li>
+    <li class="ui-state-default">Thing #3</li>
+  </ul>
+  <h1>List 2</h1>
+  <ul id="list_2" class="connected">
+    <li class="ui-state-default">Thing #1</li>
+    <li class="ui-state-default">Thing #2</li>
+    <li class="ui-state-default">Thing #3</li>
+  </ul>
+  <script>
+    $(function () {
+      $("#list_2").sortable({
+        placeholder: "ui-state-highlight"
+      });
+      $("#list_1, #list_2").sortable({
+        connectWith: ".connected"
+      });
+    });
+
+  </script>
+</body>
+
+</html>
